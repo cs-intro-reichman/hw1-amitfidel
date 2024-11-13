@@ -39,6 +39,7 @@ else{
 				hours=hours-12;
 				System.out.println(hours+":"+minutes+ " PM");	
 			}
+			else
 			System.out.println(hours+":"+minutes+ " PM");	
 	}
 	}
