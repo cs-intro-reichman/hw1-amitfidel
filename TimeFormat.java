@@ -19,21 +19,21 @@ public class TimeFormat {
        	 if (hours<12) 
 			{
 			
-			System.out.println(hours+":0"+minutes+ "  AM");
+			System.out.println(hours+":0"+minutes+ " AM");
 			return;
 			}
 		hours=hours-12;
-		System.out.println(hours+":0"+minutes+ "  PM");
+		System.out.println(hours+":0"+minutes+ " PM");
 		}
 else{
 	if (hours<12) 
 		{
 			
-		System.out.println(hours+":"+minutes+ "  AM");
+		System.out.println(hours+":"+minutes+ " AM");
 			return;
 		}
 		hours=hours-12;
-		System.out.println(hours+":"+minutes+ "  PM");
+		System.out.println(hours+":"+minutes+ " PM");
 	}
 	}
 }
