@@ -16,7 +16,7 @@ public class TimeFormat {
 		{
 				
 			
-       	 if (hours<12) 
+       	 if (hours<=12) 
 			{
 			
 			System.out.println(hours+":0"+minutes+ " AM");
